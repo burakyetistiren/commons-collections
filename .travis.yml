@@ -34,8 +34,7 @@ jobs:
       jdk: openjdk8
       install: true
       script:
-        - mvn -Drat.skip=true
-        - mvn install
+        - mvn clean install -DskipTests=true -Dlicense.skip=true
         - mvn nondex:nondex
 
       after_success:
