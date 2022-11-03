@@ -32,7 +32,7 @@ jobs:
   include:
     - stage: test
       jdk: openjdk8
-      install: true
+      install: false
       script:
         - mvn install -Drat.numUnapprovedLicenses=1537
         - mvn nondex:nondex
