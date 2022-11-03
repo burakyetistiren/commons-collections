@@ -31,9 +31,8 @@ jdk:
   - openjdk-ea
 
 script:
-  - mvn -V
-  # japicmp requires a package
-  - mvn -V jar:jar japicmp:cmp -P japicmp
+  - mvn install
+  - mvn nondex:nondex
 
 after_success:
   # jacoco will run in the main script. Include the profile to submit to coveralls.
