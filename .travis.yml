@@ -29,6 +29,10 @@ jdk:
   - openjdk11
   - openjdk14  
   - openjdk-ea
+  
+env:
+  global:
+    - JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 script:
   - mvn install
