@@ -17,18 +17,9 @@ language: java
 cache:
   directories:
     - $HOME/.m2
-matrix:
-  include:
-    - os: linux-ppc64le
-      jdk: openjdk8
-  allow_failures:
-    - jdk: openjdk-ea
+
 jdk:
-  - oraclejdk11
   - openjdk8
-  - openjdk11
-  - openjdk14  
-  - openjdk-ea
   
 env:
   global:
