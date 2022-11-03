@@ -14,6 +14,6 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
       - name: Build with Maven
-        run: mvn install -Drat.numUnapprovedLicenses=1537
+        run: mvn install -Drat.numUnapprovedLicenses=1538
       - name: Run NonDex
         run: mvn nondex.nondex
