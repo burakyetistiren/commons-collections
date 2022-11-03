@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.bag.CollectionBagTest
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in org.apache.commons.collections4.bag.CollectionBagTest
+testCollectionToArray2  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[14, Nine, 11, 12, 4, null, Thirteen, Seven, 2, , 15, Three, 10, One, One, 5.0, 16, 6.0, Eight]> but was:<[One, One, null, 6.0, 2, Nine, 15, 12, Three, 4, 16, 14, 5.0, Thirteen, , 10, Seven, Eight, 11]>
+

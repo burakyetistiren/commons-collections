@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.set.TransformedSetTest
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in org.apache.commons.collections4.set.TransformedSetTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[Thirteen, 4, Seven, 5.0, 6.0, Eight, 12, , 15, 16, One, 10, 14, null, 11, 2, Nine, Three]> but was:<[Nine, Thirteen, 4, Three, Seven, null, One, 12, 16, 11, 10, 5.0, 14, 15, , Eight, 2, 6.0]>
+

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest
+-------------------------------------------------------------------------------
+Tests run: 352, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.09 s <<< FAILURE! - in org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[tres, trois, dos, deux, uno, un]> but was:<[tres, trois, uno, un, dos, deux]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[one, three, two]> but was:<[three, two, one]>
+
+testCollectionToArray2  Time elapsed: 0.003 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two=[dos, deux], three=[tres, trois], one=[uno, un]]> but was:<[two=[dos, deux], one=[uno, un], three=[tres, trois]]>
+
+testCollectionToArray2  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[[dos, deux], [tres, trois], [uno, un]]> but was:<[[dos, deux], [uno, un], [tres, trois]]>
+
+testCollectionToArray2  Time elapsed: 0.003 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two, one, three]> but was:<[three, one, two]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three, three, two, two, one, one]> but was:<[one, one, three, three, two, two]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: type-specific toArrays should be equal expected:<[three, two, one]> but was:<[two, three, one]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two=dos, two=deux, one=uno, one=un, three=tres, three=trois]> but was:<[one=uno, one=un, three=tres, three=trois, two=dos, two=deux]>
+

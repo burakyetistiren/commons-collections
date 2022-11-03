@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.multimap.HashSetValuedHashMapTest
+-------------------------------------------------------------------------------
+Tests run: 345, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.702 s <<< FAILURE! - in org.apache.commons.collections4.multimap.HashSetValuedHashMapTest
+testToString  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: type-specific toArrays should be equal expected:<[two, two, three, three, one, one]> but was:<[three, three, two, two, one, one]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three, two, one]> but was:<[two, three, one]>
+
+testCollectionToArray2  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[tres, trois, uno, un, deux, dos]> but was:<[dos, deux, trois, tres, uno, un]>
+
+testCollectionToArray2  Time elapsed: 0.011 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three=[tres, trois], two=[dos, deux], one=[uno, un]]> but was:<[one=[un, uno], two=[dos, deux], three=[trois, tres]]>
+
+testCollectionToArray2  Time elapsed: 0.011 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[one, three, two]> but was:<[two, three, one]>
+
+testCollectionToArray2  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two=deux, two=dos, one=un, one=uno, three=tres, three=trois]> but was:<[three=trois, three=tres, two=dos, two=deux, one=uno, one=un]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three, two, one]> but was:<[two, one, three]>
+

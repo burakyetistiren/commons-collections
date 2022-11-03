@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest
+-------------------------------------------------------------------------------
+Tests run: 342, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.212 s <<< FAILURE! - in org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[one, three, two]> but was:<[two, one, three]>
+
+testMultiValuedMapIterator  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<two> but was:<three>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three=tres, three=trois, two=dos, two=deux, one=uno, one=un]> but was:<[one=uno, one=un, three=tres, three=trois, two=dos, two=deux]>
+
+testCollectionToArray2  Time elapsed: 0.003 s  <<< FAILURE!
+junit.framework.AssertionFailedError: type-specific toArrays should be equal expected:<[[uno, un], [dos, deux], [tres, trois]]> but was:<[[tres, trois], [dos, deux], [uno, un]]>
+
+testCollectionToArray2  Time elapsed: 0.004 s  <<< FAILURE!
+junit.framework.AssertionFailedError: type-specific toArrays should be equal expected:<[three=[tres, trois], one=[uno, un], two=[dos, deux]]> but was:<[one=[uno, un], three=[tres, trois], two=[dos, deux]]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[uno, un, dos, deux, tres, trois]> but was:<[uno, un, tres, trois, dos, deux]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[one, two, three]> but was:<[two, three, one]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three, three, two, two, one, one]> but was:<[two, two, three, three, one, one]>
+

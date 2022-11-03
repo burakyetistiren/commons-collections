@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.collections4.CollectionUtilsTest" time="0.428" tests="160" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\burak\Desktop\commons-collections\target\test-classes;C:\Users\burak\Desktop\commons-collections\target\classes;C:\Users\burak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\burak\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\burak\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\burak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\burak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\burak\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\burak\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\burak\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\burak\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\burak\.m2\repository\org\easymock\easymock\4.3\easymock-4.3.jar;C:\Users\burak\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\burak\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\burak\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\burak\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Istanbul"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre\bin"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="C:\Users\burak\AppData\Local\Temp\surefire8160427715309347472\surefirebooter8046852706382524656.jar C:\Users\burak\AppData\Local\Temp\surefire8160427715309347472 2022-11-03T19-15-20_777-jvmRun1 surefire4236104126395816477tmp surefire_11519441460587626127tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\burak\Desktop\commons-collections\target\test-classes;C:\Users\burak\Desktop\commons-collections\target\classes;C:\Users\burak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\burak\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\burak\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\burak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\burak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\burak\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\burak\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\burak\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\burak\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\burak\.m2\repository\org\easymock\easymock\4.3\easymock-4.3.jar;C:\Users\burak\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\burak\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\burak\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\burak\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="JBu1sB3tfZJozVDNYxF9ceIB1iwMMXKJ78JxBEjRn6w="/>
+    <property name="user.home" value="C:\Users\burak"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\burak\Desktop\commons-collections"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="933178"/>
+    <property name="surefire.real.class.path" value="C:\Users\burak\AppData\Local\Temp\surefire8160427715309347472\surefirebooter8046852706382524656.jar"/>
+    <property name="sun.boot.class.path" value="C:\Users\burak\Desktop\commons-collections\.nondex\nondex-instr.jar;C:\Users\burak\.m2\repository\edu\illinois\nondex-common\1.1.2\nondex-common-1.1.2.jar;C:\Users\burak\.m2\repository\edu\illinois\nondex-annotations\1.1.2\nondex-annotations-1.1.2.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="user.name" value="burak"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\burak\.m2\repository"/>
+    <property name="nondexDir" value="C:\Users\burak\Desktop\commons-collections\.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="nondexJarDir" value="C:\Users\burak\Desktop\commons-collections\.nondex"/>
+    <property name="java.io.tmpdir" value="C:\Users\burak\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="user.dir" value="C:\Users\burak\Desktop\commons-collections"/>
+    <property name="os.arch" value="x86"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\programlar\CloneDR\DMS\Executables;E:\programlar\CloneDR\DMS\Domains\Parlanse\Tools\RunTimeSystem;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\programlar\PuTTY\;C:\cygwin64\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\burak\AppData\Roaming\ActiveState\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\programlar\PuTTY\;C:\cygwin64\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;E:\programlar\IntelliJ IDEA Community Edition 2020.2.4\bin;E:\programlar\PyCharm Community Edition 2020.2.3\bin;E:\programlar\CLion 2020.3\bin;C:\Users\burak\AppData\Local\Microsoft\WindowsApps;C:\U;C:\Users\burak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PhpStorm 2021.3.3\bin;;E:\programlar\apache-maven-3.8.6\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="forAllDoIterator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.007"/>
+  <testcase name="countMatches" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.003"/>
+  <testcase name="getCardinalityMap" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsEmptyWithNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsEmptyWithNonEmptyCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsEmptyWithEmptyCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testHashCodeNullEquator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveAllNullSubColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testIsEqualCollection2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="filterNullParameters" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="transform1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="transform2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsEqualCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testPredicatedCollectionNullPredicate" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveCountNegative" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getFromTreeMap" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSizeIsEmpty_Enumeration" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testTransformingCollectionNullColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsSubCollection2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveRangeEndIndexNegative" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testSubtractNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSubtractNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testMaxSizeNullColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testIsProperSubCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="addAllForElements" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSubtract" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testReverseArrayNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testDisjunctionNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testDisjunctionNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="getNegative" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsEqualCollectionReturnsFalse" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0"/>
+  <testcase name="exists" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="filter" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getFromEnumeration" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="getFromLinkedHashMap" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="isFull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.003"/>
+  <testcase name="testTransformedCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveCountWrongCount" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getIterator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="containsAnyInCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsNotEmptyWithNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveCount" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveRange" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="intersectionUsesMethodEquals" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getFromPrimitiveArray" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="addAllForEnumeration" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="select" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="forAllButLastDoCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testSize_PrimitiveArray" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRetainAll" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testUnionNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testUnionNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testIsEqualCollectionNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testIsEqualCollectionNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsFullNullColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testSizeIsEmpty_PrimitiveArray" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="emptyCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveRangeWrongEndIndex" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="containsAnyInArray" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="disjunction" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getFromMapIndexOutOfRange" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSubtractWithPredicate" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testTransformedCollection_2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0"/>
+  <testcase name="testAddAllNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testAddAllNullColl3" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testAddAllNullColl4" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testAddAllNullColl5" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="addAllForIterable" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.018"/>
+  <testcase name="cardinalityOfNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="collateException0" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="collateException1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="collateException2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testHashCodeNullCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="extractSingleton" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSizeIsEmpty_List" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSizeIsEmpty_Null" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIntersectionNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIntersectionNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsSubCollectionOfSelf" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0"/>
+  <testcase name="testSizeIsEmpty_Map" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="get" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.006">
+    <failure message="expected: &lt;1=1&gt; but was: &lt;4=4&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1=1> but was: <4=4>
+	at org.apache.commons.collections4.CollectionUtilsTest.get(CollectionUtilsTest.java:693)
+]]></failure>
+  </testcase>
+  <testcase name="find" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="get1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsEqualCollectionEquator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.004"/>
+  <testcase name="testRemoveCountStartNegative" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getPositiveOutOfBounds" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="union" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="getFromHashMap" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testContainsAnyNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testContainsAnyNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testContainsAnyNullColl3" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="intersection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="containsAll" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRetainAllNullBaseColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getFromObjectArray" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveRangeEndLowStart" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="selectRejected" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="getFromIterable" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getFromIterator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testPermutationsWithNullCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.003"/>
+  <testcase name="testCollateIgnoreDuplicates" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testCollate" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="forAllDoCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRetainAllWithEquator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testGetCardinalityMapNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testaddAllNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="predicatedCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveCountWithNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsProperSubCollectionNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsProperSubCollectionNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testPredicatedCollectionNullColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsSubCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getFromList" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.003"/>
+  <testcase name="maxSize" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="cardinality" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testHashCode" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testSynchronizedCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsSubCollectionNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsSubCollectionNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="emptyIfNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getEnumeration" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="addIgnoreNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="collect" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testDisjunctionAsUnionMinusIntersection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testUnmodifiableCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="reverse" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0"/>
+  <testcase name="testRetainAllNullSubColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testMatchesAll" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testSize_List" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsEqualCollectionNullEquator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testAddIgnoreNullNullColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testRemoveRangeNull" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testContainsAnyInArrayNullArray" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testContainsAnyInArrayNullColl1" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testContainsAnyInArrayNullColl2" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSize_Enumeration" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSizeIsEmpty_Iterator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="filterInverse" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.003"/>
+  <testcase name="forAllDoFailure" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testRemoveAllNullBaseColl" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSizeIsEmpty_Array" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="filterInverseNullParameters" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSize_Map" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSizeIsEmpty_Other" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsNotEmptyWithNonEmptyCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testDisjunctionAsSymmetricDifference" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testPermutations" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSize_Iterator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testIsEqualCollectionToSelf" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="getFromObject" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testTransformingCollectionNullTransformer" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSize_Array" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testSize_Other" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="forAllButLastDoIterator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="testRemoveRangeStartIndexNegative" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveAll" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testRemoveAllWithEquator" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.002"/>
+  <testcase name="isEmpty" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0"/>
+  <testcase name="selectWithOutputCollections" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+  <testcase name="testIsNotEmptyWithEmptyCollection" classname="org.apache.commons.collections4.CollectionUtilsTest" time="0.001"/>
+</testsuite>

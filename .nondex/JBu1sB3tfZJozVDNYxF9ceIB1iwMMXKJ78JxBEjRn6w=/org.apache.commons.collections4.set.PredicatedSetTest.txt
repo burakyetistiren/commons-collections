@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.set.PredicatedSetTest
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in org.apache.commons.collections4.set.PredicatedSetTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[3, 4, 5, 2, 7, 6, 1]> but was:<[6, 5, 2, 7, 3, 4, 1]>
+

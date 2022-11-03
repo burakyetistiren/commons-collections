@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.multiset.UnmodifiableMultiSetTest
+-------------------------------------------------------------------------------
+Tests run: 83, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in org.apache.commons.collections4.multiset.UnmodifiableMultiSetTest
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[Seven, 5.0, One, 12, 14, 4, 2, 15, Eight, 16, 11, Nine, 10, , Three, 6.0, Thirteen]> but was:<[One, 16, 12, Eight, Three, 4, Nine, 2, 11, 10, 5.0, Thirteen, 15, Seven, 6.0, 14, ]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[6.0, , 12, Eight, Nine, 16, 4, 5.0, 14, One, One, 11, 2, 10, 15, Thirteen, Seven, Three]> but was:<[Thirteen, 14, 5.0, Seven, , 11, One, One, 2, 10, Nine, 12, 16, 15, Three, 4, 6.0, Eight]>
+

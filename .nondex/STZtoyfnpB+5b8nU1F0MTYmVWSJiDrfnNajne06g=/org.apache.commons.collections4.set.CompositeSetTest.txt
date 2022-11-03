@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.set.CompositeSetTest
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in org.apache.commons.collections4.set.CompositeSetTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[6.0, 4, One, 5.0, Nine, Three, 2, 14, 12, 11, Eight, , 10, 16, 15, Seven, Thirteen, null]> but was:<[4, Thirteen, 14, Eight, , 6.0, One, 11, 16, Nine, 2, 10, 12, Three, Seven, 15, null, 5.0]>
+

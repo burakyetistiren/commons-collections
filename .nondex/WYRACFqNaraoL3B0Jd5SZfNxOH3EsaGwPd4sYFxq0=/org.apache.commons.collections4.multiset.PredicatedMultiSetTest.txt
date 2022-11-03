@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.multiset.PredicatedMultiSetTest
+-------------------------------------------------------------------------------
+Tests run: 80, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in org.apache.commons.collections4.multiset.PredicatedMultiSetTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[12, 16, 6.0, Thirteen, 4, Three, 5.0, 11, Eight, 14, Seven, 15, , 2, 10, null, One, One, Nine]> but was:<[Eight, 10, Thirteen, 14, One, One, Seven, 5.0, 2, 12, null, 16, Nine, Three, 6.0, 15, 11, , 4]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[, 2, 4, 15, 11, 14, Three, 5.0, Eight, null, One, Nine, 6.0, 12, Seven, Thirteen, 16, 10]> but was:<[16, 6.0, 10, 5.0, Three, null, 11, 14, One, , Eight, 2, Thirteen, Seven, Nine, 4, 15, 12]>
+

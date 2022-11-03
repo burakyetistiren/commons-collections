@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest
+-------------------------------------------------------------------------------
+Tests run: 342, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.205 s <<< FAILURE! - in org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[tres, trois, dos, deux, uno, un]> but was:<[uno, un, tres, trois, dos, deux]>
+
+testCollectionToArray2  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[one, two, three]> but was:<[two, one, three]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three, three, two, two, one, one]> but was:<[two, two, one, one, three, three]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two, one, three]> but was:<[one, two, three]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three, two, one]> but was:<[one, two, three]>
+
+testCollectionToArray2  Time elapsed: 0.008 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[[tres, trois], [uno, un], [dos, deux]]> but was:<[[uno, un], [tres, trois], [dos, deux]]>
+
+testCollectionToArray2  Time elapsed: 0.008 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two=[dos, deux], one=[uno, un], three=[tres, trois]]> but was:<[two=[dos, deux], three=[tres, trois], one=[uno, un]]>
+
+testCollectionToArray2  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.AssertionFailedError: type-specific toArrays should be equal expected:<[one=uno, one=un, three=tres, three=trois, two=dos, two=deux]> but was:<[three=tres, three=trois, two=dos, two=deux, one=uno, one=un]>
+

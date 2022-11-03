@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.bag.HashBagTest
+-------------------------------------------------------------------------------
+Tests run: 76, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in org.apache.commons.collections4.bag.HashBagTest
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[null, , Thirteen, One, 5.0, 11, 6.0, 16, 14, Three, Nine, 12, 2, Eight, 4, Seven, 10, 15]> but was:<[One, 4, 16, 15, Eight, Seven, 6.0, 12, 14, , Thirteen, 5.0, null, 11, Three, 2, Nine, 10]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[4, Eight, 11, 5.0, Seven, 6.0, , Thirteen, null, 10, Three, One, One, 2, 14, 16, 12, Nine, 15]> but was:<[16, Seven, 5.0, 2, Eight, One, One, 15, 12, 11, Thirteen, 14, 6.0, , 10, null, Nine, Three, 4]>
+

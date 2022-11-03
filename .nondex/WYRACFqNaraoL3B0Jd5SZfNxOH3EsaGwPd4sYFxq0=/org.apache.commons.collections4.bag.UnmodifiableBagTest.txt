@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.bag.UnmodifiableBagTest
+-------------------------------------------------------------------------------
+Tests run: 78, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in org.apache.commons.collections4.bag.UnmodifiableBagTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[Seven, 6.0, 16, , One, 5.0, 14, 2, 12, Eight, Nine, 4, 11, Three, 15, 10, Thirteen]> but was:<[4, 6.0, 5.0, 16, Thirteen, 2, One, 15, Nine, 11, Three, 10, 12, 14, Eight, Seven, ]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[10, , 14, Three, Eight, Thirteen, 4, Seven, One, One, Nine, 5.0, 11, 15, 2, 16, 6.0, 12]> but was:<[11, 2, 5.0, 6.0, Thirteen, 10, 16, 4, Eight, 15, 12, , One, One, Seven, Nine, Three, 14]>
+

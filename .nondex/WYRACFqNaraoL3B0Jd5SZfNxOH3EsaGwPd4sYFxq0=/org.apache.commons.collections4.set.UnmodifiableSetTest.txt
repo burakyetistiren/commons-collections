@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.set.UnmodifiableSetTest
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in org.apache.commons.collections4.set.UnmodifiableSetTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[Seven, One, Eight, , null, Three, 11, 14, Nine, 10, 2, 5.0, 16, Thirteen, 4, 12, 15, 6.0]> but was:<[14, Eight, Thirteen, 4, Seven, 16, 2, 10, 12, 11, Nine, One, 6.0, 15, null, 5.0, , Three]>
+

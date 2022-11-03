@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.map.PassiveExpiringMapTest
+-------------------------------------------------------------------------------
+Tests run: 148, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 6.401 s <<< FAILURE! - in org.apache.commons.collections4.map.PassiveExpiringMapTest
+testCollectionToArray2  Time elapsed: 0.003 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[youv, allv, we'llv, barv, geev, againv, goshv, foov, tmpv, null, value, gollyv, bazv, hellov, seev, value, blahv, goodbyev]> but was:<[we'llv, tmpv, bazv, barv, allv, seev, value, foov, goshv, null, goodbyev, value, youv, againv, geev, blahv, hellov, gollyv]>
+
+testCollectionToArray2  Time elapsed: 0.004 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[key, key2, blah, null, again, gee, you, goodbye, golly, foo, bar, we'll, all, tmp, see, gosh, baz, hello]> but was:<[foo, again, golly, all, baz, we'll, you, key2, gee, key, tmp, blah, null, hello, gosh, see, goodbye, bar]>
+
+testCollectionToArray2  Time elapsed: 0.003 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[tmp=tmpv, null=value, again=againv, we'll=we'llv, hello=hellov, you=youv, baz=bazv, key=null, see=seev, key2=value, blah=blahv, all=allv, gosh=goshv, goodbye=goodbyev, gee=geev, bar=barv, foo=foov, golly=gollyv]> but was:<[gosh=goshv, foo=foov, we'll=we'llv, hello=hellov, tmp=tmpv, bar=barv, null=value, you=youv, all=allv, again=againv, gee=geev, key2=value, goodbye=goodbyev, key=null, blah=blahv, golly=gollyv, baz=bazv, see=seev]>
+

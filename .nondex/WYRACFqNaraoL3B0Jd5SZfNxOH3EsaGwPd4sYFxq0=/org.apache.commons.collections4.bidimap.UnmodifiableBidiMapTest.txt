@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.bidimap.UnmodifiableBidiMapTest
+-------------------------------------------------------------------------------
+Tests run: 370, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.479 s <<< FAILURE! - in org.apache.commons.collections4.bidimap.UnmodifiableBidiMapTest
+testCollectionToArray2  Time elapsed: 0.004 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[golly, all, see, goodbye, blah, foo, bar, key, hello, tmp, gosh, we'll, key2, you, null, gee, baz, again]> but was:<[key2, key, foo, hello, golly, gee, gosh, you, null, see, blah, baz, bar, goodbye, we'll, tmp, again, all]>
+
+testBidiKeySetValuesOrder  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected same:<see> was not:<again>
+
+testCollectionToArray2  Time elapsed: 0.004 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[we'll, you, blah, bar, key2, goodbye, gee, see, key, baz, all, tmp, again, golly, foo, gosh, null, hello]> but was:<[you, see, gee, we'll, baz, bar, all, foo, gosh, key, key2, tmp, null, golly, again, blah, hello, goodbye]>
+
+testCollectionToArray2  Time elapsed: 0.004 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[geev=gee, allv=all, value2=null, seev=see, blahv=blah, null=key, foov=foo, we'llv=we'll, hellov=hello, gollyv=golly, goshv=gosh, value=key2, againv=again, barv=bar, goodbyev=goodbye, bazv=baz, tmpv=tmp, youv=you]> but was:<[hellov=hello, value=key2, tmpv=tmp, seev=see, gollyv=golly, bazv=baz, barv=bar, goshv=gosh, allv=all, blahv=blah, we'llv=we'll, value2=null, againv=again, foov=foo, geev=gee, null=key, goodbyev=goodbye, youv=you]>
+
+testCollectionToArray2  Time elapsed: 0.016 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[value, goshv, barv, value2, bazv, blahv, we'llv, foov, null, geev, goodbyev, gollyv, youv, hellov, seev, tmpv, allv, againv]> but was:<[youv, value2, foov, null, goodbyev, allv, tmpv, barv, goshv, bazv, gollyv, seev, blahv, we'llv, againv, hellov, geev, value]>
+
+testBidiKeySetValuesOrder  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected same:<bazv> was not:<goodbyev>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[seev, hellov, againv, value2, we'llv, barv, null, foov, geev, blahv, allv, goodbyev, value, youv, gollyv, goshv, bazv, tmpv]> but was:<[null, allv, foov, value2, geev, goodbyev, value, goshv, bazv, youv, blahv, we'llv, gollyv, againv, barv, seev, tmpv, hellov]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[you=youv, key=null, goodbye=goodbyev, see=seev, gosh=goshv, blah=blahv, we'll=we'llv, key2=value, golly=gollyv, tmp=tmpv, gee=geev, again=againv, bar=barv, null=value2, foo=foov, hello=hellov, baz=bazv, all=allv]> but was:<[tmp=tmpv, gosh=goshv, blah=blahv, key=null, gee=geev, null=value2, foo=foov, bar=barv, we'll=we'llv, again=againv, see=seev, key2=value, golly=gollyv, baz=bazv, hello=hellov, you=youv, all=allv, goodbye=goodbyev]>
+

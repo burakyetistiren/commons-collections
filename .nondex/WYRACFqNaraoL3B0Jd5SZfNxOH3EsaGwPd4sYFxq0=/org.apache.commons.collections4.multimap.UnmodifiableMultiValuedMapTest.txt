@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest
+-------------------------------------------------------------------------------
+Tests run: 352, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.09 s <<< FAILURE! - in org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three=[tres, trois], one=[uno, un], two=[dos, deux]]> but was:<[three=[tres, trois], two=[dos, deux], one=[uno, un]]>
+
+testCollectionToArray2  Time elapsed: 0.003 s  <<< FAILURE!
+junit.framework.AssertionFailedError: type-specific toArrays should be equal expected:<[three, two, one]> but was:<[one, two, three]>
+
+testCollectionToArray2  Time elapsed: 0.003 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[[uno, un], [tres, trois], [dos, deux]]> but was:<[[dos, deux], [tres, trois], [uno, un]]>
+
+testCollectionToArray2  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[one, two, three]> but was:<[three, one, two]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two=dos, two=deux, one=uno, one=un, three=tres, three=trois]> but was:<[three=tres, three=trois, two=dos, two=deux, one=uno, one=un]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: type-specific toArrays should be equal expected:<[uno, un, dos, deux, tres, trois]> but was:<[dos, deux, uno, un, tres, trois]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two, two, three, three, one, one]> but was:<[three, three, one, one, two, two]>
+
+testCollectionToArray2  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two, three, one]> but was:<[one, three, two]>
+

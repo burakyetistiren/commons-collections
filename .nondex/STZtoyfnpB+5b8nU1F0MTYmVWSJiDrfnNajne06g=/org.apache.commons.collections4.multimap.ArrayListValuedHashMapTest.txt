@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest
+-------------------------------------------------------------------------------
+Tests run: 349, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.225 s <<< FAILURE! - in org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[three, three, one, one, two, two]> but was:<[one, one, two, two, three, three]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[one, two, three]> but was:<[two, one, three]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two=[dos, deux], three=[tres, trois], one=[uno, un]]> but was:<[one=[uno, un], three=[tres, trois], two=[dos, deux]]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[[tres, trois], [dos, deux], [uno, un]]> but was:<[[uno, un], [dos, deux], [tres, trois]]>
+
+testCollectionToArray2  Time elapsed: 0.015 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two, three, one]> but was:<[three, one, two]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[tres, trois, dos, deux, uno, un]> but was:<[tres, trois, uno, un, dos, deux]>
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two=dos, two=deux, one=uno, one=un, three=tres, three=trois]> but was:<[three=tres, three=trois, one=uno, one=un, two=dos, two=deux]>
+
+testToString  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+
+testCollectionToArray2  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: toArrays should be equal expected:<[two, one, three]> but was:<[three, one, two]>
+
+testMultiValuedMapIterator  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<two> but was:<three>
+

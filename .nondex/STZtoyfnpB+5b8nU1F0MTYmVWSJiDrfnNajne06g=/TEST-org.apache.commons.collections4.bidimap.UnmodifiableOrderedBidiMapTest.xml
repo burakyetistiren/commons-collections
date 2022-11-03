@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.156" tests="391" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\burak\Desktop\commons-collections\target\test-classes;C:\Users\burak\Desktop\commons-collections\target\classes;C:\Users\burak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\burak\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\burak\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\burak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\burak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\burak\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\burak\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\burak\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\burak\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\burak\.m2\repository\org\easymock\easymock\4.3\easymock-4.3.jar;C:\Users\burak\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\burak\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\burak\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\burak\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Istanbul"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\burak\AppData\Local\Temp\surefire261999079622545722\surefirebooter8002647421164033658.jar C:\Users\burak\AppData\Local\Temp\surefire261999079622545722 2022-11-03T19-15-20_777-jvmRun1 surefire4730066977464391872tmp surefire_21712303619035390033tmp"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="surefire.test.class.path" value="C:\Users\burak\Desktop\commons-collections\target\test-classes;C:\Users\burak\Desktop\commons-collections\target\classes;C:\Users\burak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\burak\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\burak\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\burak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\burak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\burak\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\burak\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\burak\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\burak\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\burak\.m2\repository\org\easymock\easymock\4.3\easymock-4.3.jar;C:\Users\burak\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\burak\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\burak\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\burak\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="STZtoyfnpB+5b8nU1F0MTYmVWSJiDrfnNajne06g="/>
+    <property name="user.home" value="C:\Users\burak"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\burak\Desktop\commons-collections"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="surefire.real.class.path" value="C:\Users\burak\AppData\Local\Temp\surefire261999079622545722\surefirebooter8002647421164033658.jar"/>
+    <property name="sun.boot.class.path" value="C:\Users\burak\Desktop\commons-collections\.nondex\nondex-instr.jar;C:\Users\burak\.m2\repository\edu\illinois\nondex-common\1.1.2\nondex-common-1.1.2.jar;C:\Users\burak\.m2\repository\edu\illinois\nondex-annotations\1.1.2\nondex-annotations-1.1.2.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_351\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="user.name" value="burak"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\burak\.m2\repository"/>
+    <property name="nondexDir" value="C:\Users\burak\Desktop\commons-collections\.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="nondexJarDir" value="C:\Users\burak\Desktop\commons-collections\.nondex"/>
+    <property name="java.io.tmpdir" value="C:\Users\burak\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="user.dir" value="C:\Users\burak\Desktop\commons-collections"/>
+    <property name="os.arch" value="x86"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\programlar\CloneDR\DMS\Executables;E:\programlar\CloneDR\DMS\Domains\Parlanse\Tools\RunTimeSystem;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\programlar\PuTTY\;C:\cygwin64\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\burak\AppData\Roaming\ActiveState\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\programlar\PuTTY\;C:\cygwin64\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;E:\programlar\IntelliJ IDEA Community Edition 2020.2.4\bin;E:\programlar\PyCharm Community Edition 2020.2.3\bin;E:\programlar\CLion 2020.3\bin;C:\Users\burak\AppData\Local\Microsoft\WindowsApps;C:\U;C:\Users\burak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PhpStorm 2021.3.3\bin;;E:\programlar\apache-maven-3.8.6\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_351\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testMapSize" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapSize" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesClearChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesClearChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSetRemoveSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSetRemoveSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSetRemoveSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSetRemoveSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSetRemoveSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFullIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.001"/>
+  <testcase name="testFullIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.016"/>
+  <testcase name="testFullIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.015"/>
+  <testcase name="testFullIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFullIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEqualsNull" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalFullCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsSelfHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSerializeDeserializeThenCompare" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectEqualsSelf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFullMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFullMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.031"/>
+  <testcase name="testFullMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.012"/>
+  <testcase name="testFullMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFullMapIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSimpleSerialization" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCanonicalEmptyCollectionExists" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorRemoveGetKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIteratorSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testObjectHashCodeEqualsContract" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyMapCompatibility" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEmptyMapCompatibility" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFailFastKeySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFailFastKeySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiMapIteratorSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiMapIteratorSet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetClearChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetClearChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEquals" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEquals" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMakeMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMakeMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapPut" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapPut" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFailFastEntrySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFailFastEntrySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetClearChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetClearChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemove2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemove2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSampleMappings" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSampleMappings" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapGet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapGet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiPut" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiPut" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiModifyEntrySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiModifyEntrySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiGetKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiGetKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetContains1" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetContains1" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapPutNullValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapPutNullValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContainsAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContainsAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.016"/>
+  <testcase name="testCollectionContainsAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContainsAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContainsAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContainsAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEntrySetIteratorEntry" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEntrySetIteratorEntry" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.015"/>
+  <testcase name="testCollectionToArray2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToArray2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.016"/>
+  <testcase name="testSetEquals" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0.016"/>
+  <testcase name="testSetEquals" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSetEquals" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSetEquals" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToString" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToString" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToString" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToString" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToString" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionToString" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveIf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveIf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveIf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveIf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveIf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveIf" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEntrySetIteratorEntrySetValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEntrySetIteratorEntrySetValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAddAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAddAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAddAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAddAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAddAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAddAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEntrySetIteratorEntrySetValueCrossCheck" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEntrySetIteratorEntrySetValueCrossCheck" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionSize" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionSize" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionSize" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionSize" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionSize" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionSize" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContains" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContains" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContains" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContains" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContains" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionContains" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnsupportedRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionAdd" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRemoveAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIterator" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorFailFast" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorFailFast" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorFailFast" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorFailFast" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorFailFast" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIteratorFailFast" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSetHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSetHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSetHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testSetHashCode" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEntrySetRemoveNonMapEntry" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapEntrySetRemoveNonMapEntry" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIsEmpty" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIsEmpty" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIsEmpty" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIsEmpty" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIsEmpty" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testCollectionIsEmpty" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesIteratorRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesIteratorRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapClear" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetIteratorRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetIteratorRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemove1" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemove1" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFullMapCompatibility" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFullMapCompatibility" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetContains3" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetContains3" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapPutNullKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapPutNullKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapPutAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapPutAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiKeySetValuesOrder" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiKeySetValuesOrder" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemove3" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRemove3" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapContainsKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapContainsKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetContains2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetContains2" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetIteratorRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetIteratorRemoveChangesMap" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testEntrySetRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiRemoveByKeySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiRemoveByKeySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiRemoveByEntrySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiRemoveByEntrySet" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIsEmpty" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapIsEmpty" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapToString" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapToString" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiGetKeyInverse" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiGetKeyInverse" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiRemove" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testValuesRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFailFastValues" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFailFastValues" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapContainsValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testMapContainsValue" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiInverse" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testBidiInverse" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testKeySetRetainAll" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testLastKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testUnmodifiable" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testFirstKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testPreviousKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testDecorateFactory" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+  <testcase name="testNextKey" classname="org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest" time="0"/>
+</testsuite>
