@@ -17,3 +17,4 @@ jobs:
         run: mvn clean install -Drat.numUnapprovedLicenses=1538
       - name: Run NonDex
         run: mvn nondex:nondex -Drat.numUnapprovedLicenses=1538
+        
