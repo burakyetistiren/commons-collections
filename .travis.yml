@@ -26,7 +26,7 @@ env:
     - JAVA_HOME=/usr/lib/Java/jdk1.8.0_351/jre
 
 script:
-  - mvn install
+  #- mvn install
   - mvn nondex:nondex
 
 after_success:
