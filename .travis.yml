@@ -34,7 +34,7 @@ jobs:
       jdk: openjdk8
       install: true
       script:
-        - mvn install -Drat.ignoreErrors=true package
+        - mvn install -Drat.ignoreErrors=true
         - mvn nondex:nondex
 
       after_success:
