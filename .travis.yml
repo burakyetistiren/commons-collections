@@ -23,7 +23,7 @@ jdk:
   
 env:
   global:
-    - JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
+    - JAVA_HOME=/usr/lib/Java/jdk1.8.0_351/jre
 
 script:
   - mvn install
