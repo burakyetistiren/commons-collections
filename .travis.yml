@@ -34,7 +34,7 @@ jobs:
       jdk: openjdk8
       install: true
       script:
-        - mvn install -Drat.numUnapprovedLicenses=1537
+        - mvn install -Drat.numUnapprovedLicenses=100
         - mvn nondex:nondex
 
       after_success:
